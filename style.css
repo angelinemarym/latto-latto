@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  background: #001b75;
+  margin-bottom: 16px;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arena {
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform-origin: top;
+}
+
+.tali {
+  width: 4px;
+  height: 200px;
+  background: red;
+}
+
+.bola {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffd500;
+  border: 1px solid white;
+}
